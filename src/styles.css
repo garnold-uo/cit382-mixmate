@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Logo img {
+  width: 200px; /* This makes the image smaller by setting its width to 50px */
+  height: 200px; /* This makes the image smaller by setting its height to 50px */
+}
+
+.Logo {
+  float: left; /* This causes the Logo div to float to the left of the Header div */
+}
+
+.Header {
+  text-align: left;
+  overflow: auto; /* This causes any content that overflows the Header div to be visible */
+}
+
+.Steps {
+  display: flex; /* This makes the child elements inside of the Steps div flex elements */
+  align-items: center; /* This centers the child elements vertically */
+}
+
+.Steps > div {
+  flex: 1; /* This causes each child div to take up an equal amount of space */
+  text-align: center; /* This centers the text inside of each child div */
+}
+
+/* Button styling */
+button {
+  background-color: #3498db; /* A modern blue color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding for the button */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Larger font size */
+  border: none; /* No border */
+  transition: all 0.2s; /* A smooth transition effect when hovered over */
+}
+
+.Steps button {
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 100px;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 14px; /* Larger font size */
+  color: #34495e; /* A modern grey color */
+  text-align: center; /* Center text alignment */
+  margin: 10px 0; /* A margin of 10px at the top and bottom */
+}
